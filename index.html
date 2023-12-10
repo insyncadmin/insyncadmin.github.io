@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background: #1992ed
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  background: #1992ed;
+}
+
+/* Navbar */
+.navbar {
+  padding: 30px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background: #1992ed;
+}
+
+a { 
+    color: white;
+	text-decoration: none;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+  color: white;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #1992ed;
+  width: 100%;
+  padding: 20px;
+}
+
+img {
+  border: 20px solid #1999ed;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: #1992ed;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background: #1992ed;
+  margin-top: 20px;
+}
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<center>
+  <h1>insynchr</h1>
+</div>
+
+</center>
+<div class="navbar">
+  <h3><a href="">about</a>&nbsp;|&nbsp;<a href="">green hr</a>&nbsp;|&nbsp;<a href="">contact</a></h3>
+</div>
+
+<center>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>what's the deal with airline food?</h2>
+      <h5>a question as old as time, Dec 10, 2023</h5>
+      <div class="fakeimg" style="height:500px;"><img src="plane.png"></img></div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+    <div class="card">
+      <h2>About</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>insynchr is a place to share thoughts and ideas relating to the transition of HR practices to a greener and more sustainable global economic model</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+</div>
+
+<div class="footer">
+  <h2>design by shibo</h2>
+</div>
+</center>
+
+</body>
+</html>
